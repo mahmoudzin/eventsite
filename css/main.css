@@ -1,0 +1,166 @@
+:root{
+    --main-color: rgba(214, 46, 51);
+    scroll-behavior: auto;
+}
+body{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: auto;
+}
+.main-color{
+    color: var(--main-color);
+}
+.main-bg{
+    background-color: var(--main-color);
+}
+.custome-bg{
+    background-color: #1e202b;
+}
+.home{
+    background: url("../images/edward-cisneros-KoKAXLKJwhk-unsplash.jpg") fixed center center;
+    background-size: cover;
+    overflow: hidden;
+    transition: all .5s;
+}
+.cover{
+    background-color: var(--main-color);
+    opacity: .6;
+}
+
+/*Singers Cads*/
+.singer-cart{
+    cursor: pointer;
+    position: relative;
+}
+.singer-cart i{
+    position: absolute;
+    right: 20px;
+    transition: all 1s;
+}
+#details{
+    background: rgb(131,58,180);
+background: linear-gradient(45deg, rgba(131,58,180,1) 0%, rgba(4,1,1,1) 50%, rgba(131,58,180,1) 100%);
+overflow:hidden;
+}
+.singer-cart img{
+    width: 60px;
+    height: 60px;
+}
+.singer-cart h3{
+    transition: all .5s
+}
+.singer-cart:hover h3{
+    color: var(--main-color);
+}
+.singer-details-parent{
+    display: none;
+}
+.singer-details img{
+    min-height: 200px;
+}
+.singer-details a{
+    text-decoration: none;
+}
+.singer-details a:hover{
+    color: var(--main-color) !important;
+}
+
+/*Duration*/
+#duration{
+    background: url("../images/alexander-popov-hTv8aaPziOQ-unsplash.jpg") fixed center center;
+    background-size: cover;
+    overflow: hidden
+}
+
+.contact-icons i{
+    border: 1px solid #999;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all .7s
+}
+.contact-icons i:hover{
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+.form-control{
+    border-color: #999;
+}
+.form-control:focus{
+    background: #1e202b;
+    border-color: var(--main-color);
+    box-shadow: none;
+}
+/*SIDEBAR*/
+#menu{
+    z-index: 999999999;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    transition: all 1s
+}
+#menu a, #menu i{
+    transition: all .5s
+}
+#menu a:hover{
+    color: var(--main-color) !important;
+}
+#menu .openbar{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#close-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    transition: all .5s
+}
+#close-btn:hover{
+    color: var(--main-color) !important;
+}
+.active-link{
+    color: var(--main-color) !important;
+}
+/*pickerColor*/
+
+.color-options li div{
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.color-options li:nth-child(1) div{
+    background-color: rgba(131,58,180);
+}
+.color-options li:nth-child(2) div{
+    background-color: #ff30dc;
+}
+.color-options li:nth-child(3) div{
+    background-color: #2f56a0;
+}
+.color-options li:nth-child(4) div{
+    background-color: #33b17c;
+}
+.color-options li:nth-child(5) div{
+    background-color: #e9d30ee3;
+}
+.color-options li:nth-child(6) div{
+    background-color: rgba(214, 46, 51)
+}
+.color-options li:nth-child(7) div{
+    background-color: #a71111;
+}
+.color-options li:nth-child(8) div{
+    background-color: #11586d;
+}
+.imgs-options li img{
+    border-radius: 5px;
+    cursor: pointer;
+}

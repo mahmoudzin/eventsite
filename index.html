@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egypt Party</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="bg-dark">
+    <div id="menu" class="position-fixed custome-bg text-white-50">
+        <i class="fa-solid fa-xmark fa-lg" id="close-btn"></i>
+        <div class="mt-5">
+            <ul class="list-unstyled">
+                <li class="p-3 fs-3">
+                    <a href="#home" class="text-decoration-none text-white-50 active-link">Home</a>
+                </li>
+                <li class="p-3 fs-3">
+                    <a href="#details" class="text-decoration-none text-white-50">Details</a>
+                </li>
+                <li class="p-3 fs-3">
+                    <a href="#duration" class="text-decoration-none text-white-50">Duration</a>
+                </li>
+                <li class="p-3 fs-3">
+                    <a href="#contact" class="text-decoration-none text-white-50">Contact</a>
+                </li>
+            </ul> 
+        </div>
+        <hr class="mb-3">
+        <div class="color-options">
+            <h3 class="ps-3 fs-3 mb-3">Pick Your Color:</h3>
+            <ul class="list-unstyled d-flex flex-wrap">
+                    <li class="w-25 p-3"><div class="w-100"></div></li>
+                    <li class="w-25 p-3"><div class="w-100"></div></li>
+                    <li class="w-25 p-3"><div class="w-100"></div></li>
+                    <li class="w-25 p-3"><div class="w-100"></div></li>
+                    <li class="w-25 p-3"><div class="w-100"></div></li>
+                    <li class="w-25 p-3"><div class="w-100 border border-2"></div></li>
+                    <li class="w-25 p-3"><div class="w-100"></div></li>
+                    <li class="w-25 p-3"><div class="w-100"></div></li>
+            </ul>
+        </div>
+        <hr class="mb-3">
+        <div class="imgs-options">
+            <h3 class="ps-3 fs-3 mb-3">Pick Your Image:</h3>
+            <ul class="list-unstyled d-flex flex-wrap">
+                    <li class="w-50 p-3"><img src="images/alexander-popov-hTv8aaPziOQ-unsplash.jpg" class="w-100"></li>
+                    <li class="w-50 p-3"><img src="images/anthony-delanoix-hzgs56Ze49s-unsplash.jpg" class="w-100"></li>
+                    <li class="w-50 p-3"><img src="images/edward-cisneros-KoKAXLKJwhk-unsplash.jpg" class="w-100 border border-2"></li>
+                    <li class="w-50 p-3"><img src="images/joseph-pearson-FrmpLKLNgNw-unsplash.jpg" class="w-100"></li>
+            </ul>
+        </div>
+        <span class="openbar custome-bg" id="toggle-btn">
+            <i class="fa-solid fa-gear p-2 fa-spin"></i>
+        </span>
+        
+    </div>
+
+    <div id="home" class="home vh-100">
+        <div class="cover h-100 d-flex justify-content-center align-items-center">
+            <div class="text-center text-white">
+                <h1 class="display-1 fw-bold mb-3 wow bounceIn"data-wow-duration="2s" >Egyptian Party</h1>
+                <p class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="1s">Let's have Fun</p>
+            </div>
+        </div>
+    </div>
+    <!-- deateils -->
+    <div id="details" class="py-5">
+        <div class="container">
+            <h3 class="display-4 fw-bold mb-5 main-color text-center wow bounceIn shadow-text" data-wow-duration="1s">Details</h3>
+                <div class="col-md-6 m-auto">
+                    <ul class="list-group list-unstyled">
+                        <li data-arrive="#1" data-wow-duration="2s"  class="wow bounceInLeft list-group-item d-flex justify-content-start align-items-center singer-cart bg-black text-white-50 py-3 mb-3 shadow-lg">
+                                    <img src="images/singers/singer1.jpg" class='rounded-circle me-3' alt="">
+                                    <h3>Tamer Hosney</h3>
+                                    <i class="fa-solid fa-chevron-down" id="open"></i>
+                        </li>
+                        <li id="1" class=" mb-3 list-group-item singer-details-parent bg-secondary text-white-50">
+                           <div class="row justify-content-start align-items-center singer-details">
+                             <div class="col-md-4">
+                                 <img src="images/singers/party1.jpg" class='w-100 me-3' alt="">
+                             </div>
+                             <div class="col-md-8">
+                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, placeat beatae vitae unde corporis eligendi voluptatem exercitationem quis magnam expedita quia impedit harum maxime consequatur nisi dolor corrupti. Dignissimos amet sequi et cumque quidem commodi, vitae, inventore animi voluptate dolores velit quaerat tempora alias assumenda qui voluptates nobis officia fuga.</p>
+                                 <a href="#" class="text-white-50">read more...</a>
+                             </div>
+                           </div>
+                        </li>
+
+                        <li data-arrive="#2" data-wow-delay="1s" class="wow bounceInRight mb-3 list-group-item d-flex justify-content-start align-items-center singer-cart bg-black text-white-50 py-3">
+                            <img src="images/singers/singer2.jpg" class='rounded-circle me-3' alt="">
+                            <h3>Elshab Khaled</h3>
+                            <i class="fa-solid fa-chevron-down" id="open"></i>
+                        </li>
+
+                        <li id="2" class="mb-3 list-group-item singer-details-parent bg-secondary text-white-50">
+                        <div class="row justify-content-start align-items-center singer-details">
+                            <div class="col-md-8">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, placeat beatae vitae unde corporis eligendi voluptatem exercitationem quis magnam expedita quia impedit harum maxime consequatur nisi dolor corrupti. Dignissimos amet sequi et cumque quidem commodi, vitae, inventore animi voluptate dolores velit quaerat tempora alias assumenda qui voluptates nobis officia fuga.</p>
+                                <a href="#" class="text-white-50">read more...</a>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="images/singers/party2.jpg" class='w-100 me-3' alt="">
+                            </div>
+                        </div>
+                        </li>
+
+                        <li data-arrive="#3" data-wow-delay="1.5s" class="wow bounceInUp mb-3 list-group-item d-flex justify-content-start align-items-center singer-cart bg-black text-white-50 py-3">
+                            <img src="images/singers/singer3.jpg" class='rounded-circle me-3' alt="">
+                            <h3>Assala
+                            </h3>
+                            <i class="fa-solid fa-chevron-down" id="open"></i>
+                        </li>
+
+                        <li id="3" class="mb-3 list-group-item singer-details-parent bg-secondary text-white-50">
+                        <div class="row justify-content-start align-items-center singer-details">
+                            <div class="col-md-4">
+                                <img src="images/singers/party3.jpg" class='w-100 me-3' alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, placeat beatae vitae unde corporis eligendi voluptatem exercitationem quis magnam expedita quia impedit harum maxime consequatur nisi dolor corrupti. Dignissimos amet sequi et cumque quidem commodi, vitae, inventore animi voluptate dolores velit quaerat tempora alias assumenda qui voluptates nobis officia fuga.</p>
+                                <a href="#" class="text-white-50">read more...</a>
+                            </div>
+                        </div>
+                        </li>
+                        <li data-arrive="#4" data-wow-delay="2s" data-wow-duration="2s" class="wow fadeIn mb-3 list-group-item d-flex justify-content-start align-items-center singer-cart bg-black text-white-50 py-3">
+                            <img src="images/singers/singer4.jpg" class='rounded-circle me-3' alt="">
+                            <h3>Kazem al Saher</h3>
+                            <i class="fa-solid fa-chevron-down" id="open"></i>
+                        </li>
+                        <li id="4" class="mb-3 list-group-item singer-details-parent bg-secondary text-white-50">
+                        <div class="row justify-content-start align-items-center singer-details">
+                            <div class="col-md-8">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, placeat beatae vitae unde corporis eligendi voluptatem exercitationem quis magnam expedita quia impedit harum maxime consequatur nisi dolor corrupti. Dignissimos amet sequi et cumque quidem commodi, vitae, inventore animi voluptate dolores velit quaerat tempora alias assumenda qui voluptates nobis officia fuga.</p>
+                                <a href="#" class="text-white-50">read more...</a>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="images/singers/party4.jpg" class='w-100 me-3' alt="">
+                            </div>
+                        </div>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+    <!-- Duration -->
+    <div id="duration" class="">
+        <div class="cover h-100 py-5">
+            <div class="text-center text-white py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="border py-5 fs-1" id="days">
+                                -22 D
+                            </div>
+                        </div>
+                        <div class="col-md-3 ">
+                            <div class="border py-5 fs-1" id="hours">
+                                09 h
+                            </div>
+                        </div>
+                        <div class="col-md-3 ">
+                            <div class="border py-5 fs-1" id="minutes">
+                                05 m
+                            </div>
+                        </div>
+                        <div class="col-md-3 ">
+                            <div class="border py-5 fs-1" id="socend">
+                                40 s
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contat Us -->
+    <div id="contact" class="py-5 text-white-50">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-md-6">
+                    <h2 class="display-2 fw-bold main-color">JOIN US</h2>
+                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    <h3 class="display-3 main-color"> CONTACT INFO</h3>
+                    <p>Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.</p>
+                    <ul class="list-unstyled">
+                        <li class="py-3 d-flex align-items-center">
+                            <i class="fa-solid fa-location-dot me-3"></i>
+                            <p class="m-0"> New Street 22545, Nexa Road, New York City, USA</p>
+                        </li>
+                        <li class="py-3 d-flex align-items-center">
+                            <i class="fa-solid fa-envelope me-3"></i>
+                            <p class="m-0 main-color"> hello@uigrid.com</p>
+                        </li>
+                        <li class="py-3 d-flex align-items-center">
+                            <i class="fa-solid fa-phone me-3"></i>
+                            <p class="m-0">  001-000-000-000</p>
+                        </li>
+                    </ul>
+                    <div class="contact-icons mp-3 d-flex">
+                        <i class="fa fa-brands fa-facebook-f fa-lg"></i>
+                        <i class="fa-brands fa-twitter fa-lg "></i>
+                        <i class="fa-brands fa-google-plus-g fa-lg "></i>
+                        <i class="fa-brands fa-github fa-lg"></i>
+                        <i class="fa-brands fa-behance fa-lg"></i>
+                        <i class="fa-brands fa-dribbble fa-lg px-2"></i>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control custome-bg text-white-50" placeholder="Enter Name..."/>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control custome-bg text-white-50" placeholder="Enter Email..."/>
+                        </div>
+                        <div class="mb-3">
+                            <textarea id="message" class="form-control custome-bg text-white-50" rows="10" placeholder="Enter Message..."></textarea>
+                        </div>
+                        <div> <span id="counte" class="main-color">100</span>
+                             Characyer Reamining</div>
+
+                             <button class="border-0 main-bg text-white px-3 py-2 mt-5">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
